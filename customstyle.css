@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5af0d;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 500px;
+    background-color: rgb(75, 75, 75);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.counter-container p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.container h2 {
+    font-weight: 400;
+}
+
+.counter-container span {
+    font-weight: 400;
+}
+
+.remainingCounter {
+    color: green;
+}
